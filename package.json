@@ -1,0 +1,25 @@
+{
+  "name": "stakedeth",
+  "version": "1.0.0",
+  "description": "Tools for copmparing yields for different staked ETH products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owodunni/stakedETH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owodunni/stakedETH/issues"
+  },
+  "homepage": "https://github.com/owodunni/stakedETH#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "web3": "^1.7.1"
+  }
+}
