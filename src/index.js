@@ -3,6 +3,13 @@ const { Contract } = require("./contract");
 
 const c = Contract(process.env.INFURA, process.env.ETHERSCAN);
 
-c.create("0x72f16fC988C50Ec63bf73000f325F5f3c675F007")
-  .then(console.log)
-  .then(() => process.exit(0));
+const addresses = {
+  rplDespositPool: "0x4D05E3d48a938db4b7a9A59A802D5b45011BDe58",
+};
+
+async function main() {
+  const contract = await c.create(addresses.rplDespositPool);
+  console.log(contract);
+}
+
+main().then(() => process.exit(0));

@@ -19,7 +19,11 @@
   "homepage": "https://github.com/owodunni/stakedETH#readme",
   "dependencies": {
     "axios": "^0.26.1",
+    "docopt": "^0.6.2",
     "dotenv": "^16.0.0",
     "web3": "^1.7.1"
+  },
+  "bin": {
+    "ethscan": "./src/cli.js"
   }
 }
